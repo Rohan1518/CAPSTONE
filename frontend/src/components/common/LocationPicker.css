@@ -1,0 +1,20 @@
+.location-picker-container {
+  border: 1px solid #d1d9e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #f8f9fa;
+}
+
+.location-picker-instruction {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.location-picker-map {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+}

@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.main-content {
+  margin-left: 260px; /* Matches sidebar width */
+  padding: 2rem;
+  width: calc(100% - 260px);
+  box-sizing: border-box;
+}

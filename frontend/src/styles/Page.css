@@ -1,0 +1,33 @@
+/* --- Reusable Page Layout Styles --- */
+
+.page-container {
+  background-color: #f4f7f6;
+  min-height: 100vh;
+}
+
+.page-header {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header h1 {
+  color: #1a252f;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.header-link:hover {
+  color: #0056b3;
+}
